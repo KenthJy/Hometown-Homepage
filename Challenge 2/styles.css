@@ -1,0 +1,150 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #040f27;
+    
+}
+
+.navbar {
+    background: #1e1337;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.navbar>.heading>a{
+    text-decoration: none;
+    color: white;
+}
+.navbar:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.22;
+    background-image: url('https://armageddonviews.weebly.com/uploads/1/3/4/5/13458457/7152919_orig.jpg');
+    background-size: cover;
+    background-position: 100%;
+}
+
+.heading {
+    position: relative;
+}
+
+.heading, .container{
+    padding: 6.2rem 8vw;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 1.1em;
+    color: rgba(196, 167, 118, 0.904);
+    text-shadow: 0 0 1px black;
+}
+
+.heading>p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: rgba(227, 215, 194, 0.751);
+    background: rgba(213, 155, 155, 0.152);
+}
+
+.logo{
+position: relative;
+width: 1.5rem;
+bottom: 5rem;
+right: 45rem;
+}
+
+figcaption{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+figcaption>span{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    margin-bottom:2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgb(61, 100, 150);
+    padding: 1.2rem;
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(30, 70, 123);
+    text-align: center;
+    justify-content: space-around;
+}
+.container>h3{
+    display: block;
+    
+}
+
+
+.picture{
+    width: 25rem;
+    border-radius: 5%;
+    border: 2px solid rgb(252, 252, 252);
+    box-shadow: 0 0 5px black;
+}
+
+.footer-div{
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    width: 35rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #161d23;
+    color: #2b2839;
+    border-bottom: 3px solid #373739;
+    border-top: 3px solid #373739;
+    line-height:1.2rem;
+}
+
+.footer-div>img{
+    width: 10rem;
+ 
+    border-radius: 0.5rem;
+    background-color: #000000;
+
+}
+.footer-div>h3{
+    display: block;
+}
+.centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(208, 208, 208);
+    margin: auto 1rem;
+}
+
+.centering>.name{
+    font-weight: bold;
+ 
+}
+
+
+
